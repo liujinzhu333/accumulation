@@ -1,0 +1,97 @@
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.home-intro, .home-portfolio, .home-contact {
+  flex: 1;
+  min-width: 300px;
+  background-color: var(--module-bg-color);
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-intro h3, .home-portfolio h3, .home-contact h3 {
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0; /* 调整上边距 */
+  color: var(--primary-color);
+}
+
+.home-intro ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+.home-intro ul li {
+  margin-bottom: 0.5em;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.portfolio-item {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1em;
+  text-align: center;
+  width: calc(50% - 1em); /* 两列布局 */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.portfolio-item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portfolio-item h4 {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  color: var(--primary-color);
+}
+
+.portfolio-item p {
+  font-size: 1em;
+  color: var(--text-color);
+}
+
+.home-contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-contact ul li {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  color: var(--text-color);
+}
+
+.home-contact ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.home-contact ul li a:hover {
+  color: var(--secondary-color);
+}

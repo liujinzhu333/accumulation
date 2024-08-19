@@ -1,0 +1,24 @@
+.contact-content {
+  text-align: left;
+}
+
+.contact-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-content ul li {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  color: var(--text-color);
+}
+
+.contact-content ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-content ul li a:hover {
+  color: var(--secondary-color);
+}

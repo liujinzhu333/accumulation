@@ -1,0 +1,55 @@
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.about-intro, .about-skills {
+  background-color: var(--module-bg-color);
+  padding: 1em;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.about-education, .about-experience {
+  background-color: var(--module-bg-color);
+  padding: 1em;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.about-intro h3, .about-skills h3, .about-education h3, .about-experience h3 {
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0; /* 调整上边距 */
+  color: var(--primary-color);
+}
+
+.about-skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-skills ul li {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5em 1em;
+  margin-bottom: 0.5em;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.about-education ul, .about-experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-education ul li, .about-experience ul li {
+  margin-bottom: 0.5em;
+  padding: 0.5em 1em;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 5px;
+}

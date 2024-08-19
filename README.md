@@ -1,2 +1,19 @@
 # accumulation
 积累
+/project
+    /css
+        styles.css
+        home.css
+        about.css
+        portfolio.css
+        contact.css
+        tools.css
+    /images
+        image1.jpg
+        image2.jpg
+        profile.jpg
+    index.html
+    about.html
+    portfolio.html
+    contact.html
+    tools.html

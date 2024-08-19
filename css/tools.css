@@ -1,0 +1,24 @@
+.tools-content {
+  text-align: left;
+}
+
+.tools-content ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+.tools-content ul li {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  color: var(--text-color);
+}
+
+.tools-content ul li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.tools-content ul li a:hover {
+  color: var(--secondary-color);
+}

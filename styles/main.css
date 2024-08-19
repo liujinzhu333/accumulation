@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 100%;
+  padding: 20px;
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
+}
+.card {
+  cursor: pointer;
+  padding: 10px;
+  width: 200px;
+  min-height: 100px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px 2px #ccc;
+}
